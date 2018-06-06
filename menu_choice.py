@@ -12,3 +12,12 @@ elif menu == '중식':
     print(random.choice(중식))
 elif menu == '일식':
     print(random.choice(일식))
+
+if menu == '한식':
+    result = random.choice(한식)
+elif menu == '중식':
+    result = random.choice(중식)
+elif menu == '일식':
+    result = random.choice(일식)
+
+print(result)
